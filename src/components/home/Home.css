@@ -1,0 +1,21 @@
+.haf-width{
+    width: 50%;
+    padding-left: 5%;
+
+}
+
+ .follower-item{
+        width: 90%;
+        height: 50%;
+        margin-left:5%;
+        margin-right: 5%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px gray;
+        
+    }
+
+    .f-txy-pad{
+        
+        text-align: center;
+
+    }

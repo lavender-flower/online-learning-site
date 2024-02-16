@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Python Online Tutorial",
+      "price": 5000,
+      "purpose": "build websites and software, automate tasks, and conduct data analysis.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1H0z1JOHYSBr9XmQ13t67onf30RliaIIUeA&usqp=CAU",
+      "students": 300
+    },
+    {
+      "name": "HTML/CSS Online Tutorial",
+      "price": 2000,
+      "purpose": "to create Web pages and tells the browser how to display them. It designs the basic layout and formatting of Web pages. ",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKGYoiw-mkQuDajtwL7bLFhNiikE91ok2Pmw&usqp=CAU",
+      "students": 500
+    },
+    {
+      "name": "JavaScript Online Tutorial",
+      "price": 2000,
+      "purpose": "to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrltazgA2PN1iVP6HgNR8G8WEs9hbrhp5QHA&usqp=CAU",
+      "students": 150
+    },
+    {
+      "name": "C++ Online Tutorial",
+      "price": 2000,
+      "purpose": "developing browsers, operating systems, and applications, as well as in-game programming, software engineering, data structures, etc.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-qY12k2KwdL-S8e823ULsGymQt2pHACZvAA&usqp=CAU",
+      "students": 520
+    },
+    {
+      "name": "Java Online Tutorial",
+      "price": 2000,
+      "purpose": "to develop a small, reliable, portable, distributed, real-time operating platform. When the project started, C++ was the language of choice.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGqBj3ZRNOheqDXBk1XjDl3GVKBx9ATlsqfAJM_WnOWW33g4KW2bx22qD4Kkz2WJTEqM&usqp=CAU",
+      "students": 570
+    },
+    {
+      "name": "React Js Online Tutorial",
+      "price": 2000,
+      "purpose": "to handle the view layer of that application just like the V in a model-view-controller (MVC) pattern by providing the best and most efficient rendering execution. Rather than dealing with the whole user interface as a single unit,",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSySM-NgwIrTPoRsdo_PMPWz8CEZjjEDYH79g&usqp=CAU",
+      "students": 630
+    },
+    {
+      "name": "SQL Online Tutorial",
+      "price": 2000,
+      "purpose": "to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRp_U4EguHv62ivhQpIEssYaqICPRRTH-5Cw&usqp=CAU",
+      "students": 430
+    },
+    {
+      "name": "Bootstrap/Tailwind Online Tutorial",
+      "price": 1000,
+      "purpose": "Bootstrap is used for creating responsive web and mobile applications whereas Tailwind CSS is used to create customized user interfaces. ",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkdknTx9OFfvpjm8pfjSMsjl2oHp8VE96mA&usqp=CAU",
+      "students": 500
+    },
+    {
+      "name": "PHP Online Tutorial",
+      "price": 5000,
+      "purpose": "develop dynamic and interactive web pages, applications, and eCommerce platforms. PHP is well suited to various web tasks, from generating dynamic web pages, sending emails, and collecting web forms to sending and receiving cookies.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVCn5KfQA9b37vDbJ1iLlFqXW9wY_BCgncIA&usqp=CAU",
+      "students": 500
+    },
+    {
+      "name": "C# Online Tutorial",
+      "price": 2000,
+      "purpose": "to develop a big variety of systems. With C# you maximize the return of investment on your skills because you can build almost any kind of applications: Console applications. Desktop applications (Windows Forms, WPF)",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL-mPxFrgrWv2RBrYDT-Bw3j_v8KzRSAvabw&usqp=CAU",
+      "students": 500
+    },
+    {
+      "name": "Swift Online Tutorial",
+      "price": 5000,
+      "purpose": " a standard format used when making international transfers between banks and financial institutions. It identifies the branch, bank, and country an account is registered in and communicates the who, what, and where, through BIC (Bank Identifier Codes).",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecFFT2poq0UeBAuwB2yELZWW1KwziCcGQRA&usqp=CAU",
+      "students": 500
+    },
+    {
+      "name": "Ruby Online Tutorial",
+      "price": 5000,
+      "purpose": "building desktop applications, static websites, data processing services, and even automation tools. It is used for web servers, DevOps, and web scraping and crawling.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIXH2TwO4yJiqwsHhzaGGdIDdTDofhHganQ&usqp=CAU",
+      "students": 500
+    },
+    {
+      "name": "Laravel Online Tutorial",
+      "price": 2000,
+      "purpose": "attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNO6nkqZXEq4BJhW8hEKc3VuCK7_-ar8ikYg&usqp=CAU",
+      "students": 500
+    }
+  ]
