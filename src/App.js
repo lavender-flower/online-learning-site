@@ -15,7 +15,9 @@ import Courses from './components/Courses/Courses';
 import Teachers from './components/Teacher/Teachers';
 import AboutUs from './components/AboutUs/AboutUs';
 import NotFound from './components/NotFound/NotFound';
-
+import Login from './components/Login/Login/Login';
+import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 
@@ -26,7 +28,8 @@ const App = () => {
   return (
     <div>
       
-      <Router>
+    <AuthProvider>
+    <Router>
       <Header></Header>
         <Switch>
           <Route exact path="/">
@@ -41,10 +44,14 @@ const App = () => {
           <Courses></Courses>
 
           </Route>
-          <Route exact path="/teachers">
-          <Teachers></Teachers>
+          <Route exact path="/login">
+          <Login></Login>
 
           </Route>
+          <PrivateRoute exact path="/teachers">
+          <Teachers></Teachers>
+
+          </PrivateRoute>
           <Route exact path="/aboutus">
           <AboutUs></AboutUs>
 
@@ -57,6 +64,7 @@ const App = () => {
       </Router>
       
       <Footerpart></Footerpart>
+    </AuthProvider>
       </div>
   )
 }
