@@ -32,10 +32,10 @@ function countdownTimer(){
     // minutesE1.innerText=formatNumber(55);
     // secondsE1.innerText=formatNumber(59);
   
-    //  daysE1.innerText =formatNumber(Math.floor(distance/day));
-    // hoursE1.innerText =formatNumber(Math.floor((distance%day)/hour));
-    // minutesE1.innerText =formatNumber(Math.floor((distance%hour)/minute));
-    // secondsE1.innerText =formatNumber(Math.floor((distance%minute)/second));
+     daysE1.innerText =formatNumber(Math.floor(distance/day));
+    hoursE1.innerText =formatNumber(Math.floor((distance%day)/hour));
+    minutesE1.innerText =formatNumber(Math.floor((distance%hour)/minute));
+    secondsE1.innerText =formatNumber(Math.floor((distance%minute)/second));
 
   },1000);
 
