@@ -29,11 +29,13 @@ const Header = () => {
             <Nav.Link ><Link className='text-decoration-none text-warning' to='/courses'>Courses</Link></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/teachers'>Teachers</NavLink></Nav.Link>
             <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/aboutus'>About Us</NavLink></Nav.Link>
+            <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/myclasses'>My Classes</NavLink></Nav.Link>
             {user?.email? 
-            <Button onClick={logOut} variant='light'>Logout</Button>:
+            <a onClick={logOut}  className='text-warning pt-2 px-2 ' style={{textDecoration:'none'}}>Logout</a>:
               <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/login'>Login</NavLink></Nav.Link>
 
             }
+            
           </Nav>
           <Form className="d-flex">
           <Navbar.Text className='text-warning'>Signed in as <a href='#login'>{user?.displayName}</a></Navbar.Text>

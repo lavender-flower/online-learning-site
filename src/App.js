@@ -18,6 +18,7 @@ import NotFound from './components/NotFound/NotFound';
 import Login from './components/Login/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import MyClasses from './components/MyClasses/MyClasses';
 
 
 
@@ -49,8 +50,12 @@ const App = () => {
           <Login></Login>
 
           </Route>
-          <PrivateRoute exact path="/teachers">
+          <Route exact path="/teachers">
           <Teachers></Teachers>
+
+          </Route>
+          <PrivateRoute exact path="/myclasses">
+          <MyClasses></MyClasses>
 
           </PrivateRoute>
           <Route exact path="/aboutus">

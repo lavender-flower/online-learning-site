@@ -9,8 +9,8 @@ const Login = () => {
 <div class="container-o">
   <img src="images/login.jpg" width='100%' alt="Avatar" class="image"  style={{filter: "brightness(45%)"}}/>
   <div class="overlay">
-    <div class="text-o"><p style={{fontSize:'4vw'}}>Login With Via Email Account For More Access.</p>
-    <p>You should explore this page</p>
+    <div class="text-o"><p style={{fontSize:'4vw'}}>First Login With Via Email Account For More Access.</p>
+    <p>For explore this page</p>
     
     <p>Please login</p>
 <button onClick={signInUsingGoogle} className='btn btn-warning mb-5'>Google Sign in</button></div>
