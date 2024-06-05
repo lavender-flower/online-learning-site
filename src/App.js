@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
   
 } from "react-router-dom";
 import Header from './components/home/header/Header';
@@ -24,9 +24,10 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 
+
 const App = () => {
   return (
-    <div>
+    <div className="App">
       
     <AuthProvider>
     <Router>

@@ -1,0 +1,44 @@
+[
+   
+    {
+      "img": "https://t4.ftcdn.net/jpg/03/26/98/51/240_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg",
+      "name": "Nathan Anderson",
+      "department": "Python Ruby"
+    },
+    {
+      "img": "https://t4.ftcdn.net/jpg/05/68/95/51/240_F_568955169_KG2W5vCeb2Bf39HGJdHbjwFyYYEtA7K1.jpg",
+      "name": "Alina Kaira",
+      "department": "Java & C++"
+    },
+   
+    {
+      "img": "https://t3.ftcdn.net/jpg/02/15/63/42/240_F_215634201_6MHT39zdmOmAmbbWLth2z7KMvpiZnMak.jpg",
+      "name": "Sussie Wolff",
+      "department": "SQL & MongoDB "
+    },
+    {
+      "img": "https://t4.ftcdn.net/jpg/02/87/35/99/240_F_287359914_HU3P7rhmyJMyyhBBcILcWd2S7DDwkJSs.jpg",
+      "name": "Grace Mitchell",
+      "department": "C++ Swift"
+    },
+    {
+      "img": "https://t3.ftcdn.net/jpg/04/17/85/08/240_F_417850826_ZQ98ggEKoZcqFjfLSgmBwYPHu1Tc4MGU.jpg",
+      "name": "Hellen Low",
+      "department": "Java PHP"
+    },
+    {
+      "img": "https://t4.ftcdn.net/jpg/02/82/72/09/240_F_282720917_7ZtAfEqEfA6CRT66imV9avGWXEg9w6Jt.jpg",
+      "name": "Irene Dermott",
+      "department": "HTML CSS & Js"
+    },
+    {
+      "img": "https://t4.ftcdn.net/jpg/01/51/99/67/240_F_151996745_Eo5dwS657vmCEKtoLR6BbQiWE2XAFGOJ.jpg",
+      "name": "Jasmine Jordan",
+      "department": "React Laravel"
+    },
+    {
+      "img": "https://t4.ftcdn.net/jpg/05/35/28/93/240_F_535289317_lrX9mbQwwRd4Bn3kvxL442XjtNJtZxjy.jpg",
+      "name": "Dermott era",
+      "department": "Bootstrap & Tailwind C++"
+    }
+  ]

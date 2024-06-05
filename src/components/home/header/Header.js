@@ -7,35 +7,39 @@ import { NavLink,Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import useAuth from '../../../hooks/useAuth';
+import '../../all.css'
 
 const Header = () => {
   const {user,logOut}=useAuth();
     return (
         <div>
-          <div>
-            <h5 className='text-primary text-center bg-body-tertiary p-2'>ONLINE LEARN SITE</h5>
-          </div>
-             
-      <Navbar bg="light" data-bs-theme="light" collapseOnSelect expand='lg'>
-        <Container>
-           
-          <Navbar.Brand href="#home"> <img src='images/onlinelearnlogo.png' alt=''></img></Navbar.Brand>
-          <Nav className="me-auto">
+         
             
-            <Nav.Link ><NavLink className='text-decoration-none' to='/home'>Home</NavLink></Nav.Link>
-            <Nav.Link ><Link className='text-decoration-none' to='/courses'>Courses</Link></Nav.Link>
-            <Nav.Link ><NavLink className='text-decoration-none' to='/teachers'>Teachers</NavLink></Nav.Link>
-            <Nav.Link ><NavLink className='text-decoration-none' to='/aboutus'>About Us</NavLink></Nav.Link>
+      <Navbar fixed='top' className='b-bg' collapseOnSelect expand='lg' data-bs-theme="light" >
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav"> 
+      <Navbar.Brand href="#home" className='ps-5'> <img src='images/orange-removebg-preview.png' style={{width:'3vw'}} alt=''></img></Navbar.Brand>
+     
+        
+           
+          
+          <Nav className="me-auto px-3">
+            
+            <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/home'>Home</NavLink></Nav.Link>
+            <Nav.Link ><Link className='text-decoration-none text-warning' to='/courses'>Courses</Link></Nav.Link>
+            <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/teachers'>Teachers</NavLink></Nav.Link>
+            <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/aboutus'>About Us</NavLink></Nav.Link>
             {user?.email? 
             <Button onClick={logOut} variant='light'>Logout</Button>:
-              <Nav.Link ><NavLink className='text-decoration-none' to='/login'>Login</NavLink></Nav.Link>
+              <Nav.Link ><NavLink className='text-decoration-none text-warning' to='/login'>Login</NavLink></Nav.Link>
 
             }
           </Nav>
           <Form className="d-flex">
-          <Navbar.Text className='text-primary'>Signed in as: <a href='#login'>{user?.displayName}</a></Navbar.Text>
+          <Navbar.Text className='text-warning'>Signed in as <a href='#login'>{user?.displayName}</a></Navbar.Text>
                 </Form>
-        </Container>
+      
+        </Navbar.Collapse>
       </Navbar>
         </div>
     );
